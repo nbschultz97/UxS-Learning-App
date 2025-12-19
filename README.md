@@ -12,12 +12,12 @@ Mobile-first web learning app for special operations robotics operators. The app
    ```bash
    npm run dev
    ```
-4. Build for static hosting (GitHub Pages):
+4. Build for static hosting (GitHub Pages or a root-level custom domain):
    ```bash
    npm run build
    ```
 
-The site uses hash-based routing and a base path of `/UxS-Learning-App/` for GitHub Pages compatibility.
+The site uses hash-based routing and a relative base path so the bundle works on GitHub Pages (project subpath) or a root-level deployment without 404s.
 
 ## Legacy CLI
 The previous Python CLI now resides under `legacy_cli/`. It remains runnable for reference:
