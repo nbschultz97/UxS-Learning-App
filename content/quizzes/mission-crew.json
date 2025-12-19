@@ -1,0 +1,10 @@
+{
+  "slug": "mission-crew",
+  "questions": [
+    {"type": "short", "prompt": "What belongs in a launch call?"},
+    {"type": "mcq", "prompt": "Who should own TAK reporting?", "options": ["Designated crew member", "Any observer"], "answer": "Designated crew member"},
+    {"type": "short", "prompt": "Why assign a recovery rally point?"},
+    {"type": "short", "prompt": "What metrics should be captured for after-action link notes?"},
+    {"type": "short", "prompt": "How do standardized calls reduce risk?"}
+  ]
+}

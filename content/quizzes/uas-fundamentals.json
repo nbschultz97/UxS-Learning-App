@@ -1,0 +1,10 @@
+{
+  "slug": "uas-fundamentals",
+  "questions": [
+    {"type": "short", "prompt": "When is fixed-wing preferred?"},
+    {"type": "short", "prompt": "List two launch site considerations."},
+    {"type": "mcq", "prompt": "What does payload weight impact most?", "options": ["Endurance", "Color"], "answer": "Endurance"},
+    {"type": "short", "prompt": "Why run a hover or trim check?"},
+    {"type": "short", "prompt": "Name one mitigation for RF-dense environments."}
+  ]
+}

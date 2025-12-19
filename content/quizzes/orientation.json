@@ -1,0 +1,10 @@
+{
+  "slug": "orientation",
+  "questions": [
+    {"type": "mcq", "prompt": "Which areas make up the operator competency model?", "options": ["A-K"], "answer": "A-K"},
+    {"type": "short", "prompt": "Name two crew roles used during training."},
+    {"type": "short", "prompt": "What is the purpose of a lost-link plan?"},
+    {"type": "short", "prompt": "When should weather and NOTAMs be checked?"},
+    {"type": "short", "prompt": "Why assign a mission lead even during rehearsals?"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "cuas-awareness",
+  "questions": [
+    {"type": "short", "prompt": "What details go into a C-UAS report?"},
+    {"type": "mcq", "prompt": "Why follow detect → cue → report?", "options": ["Reduces chaos", "Adds delays"], "answer": "Reduces chaos"},
+    {"type": "short", "prompt": "Name one signature reduction habit."},
+    {"type": "short", "prompt": "Who should handle observation during drills?"},
+    {"type": "short", "prompt": "Why keep comms calm during threat indicators?"}
+  ]
+}
