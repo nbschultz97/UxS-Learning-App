@@ -17,6 +17,8 @@ Mobile-first web learning app for special operations robotics operators. The app
    npm run build
    ```
 
+Safari note: the build ships a dual modern/legacy bundle via `@vitejs/plugin-legacy` so Safari 13+ can load the site. Always run `npm install` before `npm run build` to ensure the legacy plugin is present.
+
 The site uses hash-based routing and a relative base path so the bundle works on GitHub Pages (project subpath) or a root-level deployment without 404s.
 
 ## Legacy CLI
