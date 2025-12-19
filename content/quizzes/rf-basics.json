@@ -1,0 +1,10 @@
+{
+  "slug": "rf-basics",
+  "questions": [
+    {"type": "short", "prompt": "How does polarization mismatch appear?"},
+    {"type": "mcq", "prompt": "First step when link drops suddenly?", "options": ["Check connectors", "Restart laptop"], "answer": "Check connectors"},
+    {"type": "short", "prompt": "Name two interference sources to map."},
+    {"type": "short", "prompt": "Why log link stats after flights?"},
+    {"type": "short", "prompt": "How can route planning preserve LOS?"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "safe-operator",
+  "questions": [
+    {"type": "short", "prompt": "Why keep a configuration baseline?"},
+    {"type": "mcq", "prompt": "When should abort criteria be reviewed?", "options": ["Before arming", "After landing"], "answer": "Before arming"},
+    {"type": "short", "prompt": "List two battery inspection items."},
+    {"type": "short", "prompt": "How does geofencing reduce risk?"},
+    {"type": "short", "prompt": "Why capture flight logs even in training?"}
+  ]
+}

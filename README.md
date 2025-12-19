@@ -1,38 +1,35 @@
 # UxS Learning App
 
-Lightweight, offline-friendly CLI that delivers a Duolingo-style curriculum for U.S. Army UxS and robotics topics. Content is scoped to doctrine, FPV build/fly, Raspberry Pi edge autonomy, programming, EW, CUAS, and mobility drills. The design keeps dependencies minimal and preserves a path to future Wi-Fi CSI pose-estimation overlays.
+Mobile-first web learning app for special operations robotics operators. The app delivers modules, role tracks, drills, skills maps, and references aligned to the concept-only constraints. The web client is the primary product; a legacy CLI now lives in `legacy_cli/`.
 
-## Requirements
-- Python 3.9+
+## Quick start (web app)
+1. Install Node.js 18+.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the dev server:
+   ```bash
+   npm run dev
+   ```
+4. Build for static hosting (GitHub Pages):
+   ```bash
+   npm run build
+   ```
 
-## Installation
+The site uses hash-based routing and a base path of `/UxS-Learning-App/` for GitHub Pages compatibility.
+
+## Legacy CLI
+The previous Python CLI now resides under `legacy_cli/`. It remains runnable for reference:
 ```bash
-python -m pip install --upgrade pip
+cd legacy_cli
 pip install -e .
-```
-
-## Usage
-List available lessons:
-```bash
 python -m uxs_app list
 ```
+The CLI is no longer the primary delivery path and will be superseded by the web experience.
 
-Read drills and summary for a lesson:
-```bash
-python -m uxs_app learn fpv
-```
-
-Run a quiz and persist progress to `~/.uxs_learning/progress.json`:
-```bash
-python -m uxs_app quiz rpi
-```
-
-Reset stored progress:
-```bash
-python -m uxs_app reset
-```
-
-## Extending toward CSI pose detection
-- Keep drivers decoupled: the CLI pulls content from `uxs_app/lessons.py` and can later import CSI pose-estimation modules without changing commands.
-- Store outputs locally (`~/.uxs_learning`) to stay air-gapped and avoid network reliance.
-- Add future overlays by emitting quiz/performance JSON that a lightweight UI can visualize alongside CSI skeleton plots.
+## Roadmap highlights
+- Implement markdown-backed lessons, quizzes, and drill checklists.
+- Add references ingestion (`/sources`) and validation.
+- Track progress and gating across modules and role tracks.
+- Deploy continuously to GitHub Pages.
