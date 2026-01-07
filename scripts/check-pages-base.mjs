@@ -12,7 +12,8 @@ if (!fs.existsSync(indexPath)) {
 const html = fs.readFileSync(indexPath, 'utf8');
 const issues = [];
 
-const absoluteAssetPattern = /(src|href)=["']\/(?!UxS-Learning-App\/)(assets|vite|static|favicon|manifest|icon)[^"']*["']/g;
+// Check for absolute asset paths (should be relative with base: './')
+const absoluteAssetPattern = /(src|href)=["']\/(?!\/)(assets|vite|static|favicon|manifest|icon)[^"']*["']/g;
 const matches = html.matchAll(absoluteAssetPattern);
 
 for (const match of matches) {
@@ -20,10 +21,10 @@ for (const match of matches) {
 }
 
 if (issues.length > 0) {
-  console.error('Found asset references without the GitHub Pages base path:\n');
+  console.error('Found absolute asset references (should be relative paths):\n');
   issues.forEach((issue) => console.error(` - ${issue}`));
-  console.error('\nEnsure Vite base is set to "/UxS-Learning-App/" and rebuild.');
+  console.error('\nEnsure Vite base is set to "./" for relative paths and rebuild.');
   process.exit(1);
 }
 
-console.log('Asset base path check passed: no root-level asset references detected.');
+console.log('Asset base path check passed: all assets use relative paths.');
