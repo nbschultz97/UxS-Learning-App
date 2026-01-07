@@ -1,7 +1,7 @@
 import matter from 'gray-matter';
 
-const lessonFiles = import.meta.glob('../../content/lessons/*.md', { query: '?raw', import: 'default', eager: true });
-const quizFiles = import.meta.glob('../../content/quizzes/*.json', { query: '?raw', import: 'default', eager: true });
+const lessonFiles = import.meta.glob('/content/lessons/*.md', { query: '?raw', import: 'default', eager: true });
+const quizFiles = import.meta.glob('/content/quizzes/*.json', { query: '?raw', import: 'default', eager: true });
 
 export const lessons = Object.entries(lessonFiles).map(([path, raw]) => {
   const { data, content } = matter(raw);
