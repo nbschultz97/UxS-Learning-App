@@ -1,0 +1,10 @@
+{
+  "slug": "odb-hardware",
+  "questions": [
+    {"type": "mcq", "prompt": "What MCU does the SpeedyBee F405 V4 use?", "options": ["STM32F405 @ 180 MHz", "STM32F411 @ 100 MHz", "STM32F405 @ 168 MHz", "ATmega328P @ 16 MHz"], "answer": "STM32F405 @ 180 MHz"},
+    {"type": "mcq", "prompt": "What is the typical latency of ELRS 2.4GHz at 250Hz packet rate?", "options": ["<5ms", "<8ms", "<15ms", "<20ms"], "answer": "<8ms"},
+    {"type": "short", "prompt": "Describe the five phases of GPS Rescue in order."},
+    {"type": "mcq", "prompt": "What is the maximum continuous ESC current rating for the SpeedyBee F405 V4?", "options": ["35A", "45A", "55A", "65A"], "answer": "55A"},
+    {"type": "short", "prompt": "What is the field repair procedure for an internal 5V regulator failure?"}
+  ]
+}

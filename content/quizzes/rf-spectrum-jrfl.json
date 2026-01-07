@@ -1,0 +1,10 @@
+{
+  "slug": "rf-spectrum-jrfl",
+  "questions": [
+    {"type": "mcq", "prompt": "What are the three primary categories of the JRFL?", "options": ["Taboo, Protected, Guarded", "Restricted, Classified, Secret", "Red, Yellow, Green", "Alpha, Bravo, Charlie"], "answer": "Taboo, Protected, Guarded"},
+    {"type": "short", "prompt": "Why are Taboo frequencies never jammed? Give an example."},
+    {"type": "mcq", "prompt": "What does the brevity code 'CEASE BUZZER' mean?", "options": ["Emergency distress signal", "Stop all jamming immediately", "Laser weapon active", "IR pointer marking target"], "answer": "Stop all jamming immediately"},
+    {"type": "short", "prompt": "Explain the difference between Protected and Guarded frequencies."},
+    {"type": "short", "prompt": "List three steps in the spectrum deconfliction process before launching a UAS."}
+  ]
+}

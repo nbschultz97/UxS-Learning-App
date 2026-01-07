@@ -1,0 +1,10 @@
+{
+  "slug": "cuas-weft",
+  "questions": [
+    {"type": "mcq", "prompt": "What does WEFT stand for?", "options": ["Wings, Engine, Fuselage, Tail", "Weight, Engine, Fuel, Thrust", "Wing, Elevation, Flight, Time", "Weapons, Electronics, Frame, Tracker"], "answer": "Wings, Engine, Fuselage, Tail"},
+    {"type": "mcq", "prompt": "What is the key visual discriminator between Shahed-131 and Shahed-136?", "options": ["Engine size", "Wing shape", "Shahed-131 stabilizers extend only above the wing; Shahed-136 extends both above and below", "Fuselage length only"], "answer": "Shahed-131 stabilizers extend only above the wing; Shahed-136 extends both above and below"},
+    {"type": "mcq", "prompt": "What is the altitude ceiling for Group 1 UAS?", "options": ["<500 ft AGL", "<1,200 ft AGL", "<3,500 ft AGL", "<18,000 ft MSL"], "answer": "<1,200 ft AGL"},
+    {"type": "short", "prompt": "Explain the SALUTE reporting format and provide an example of when to use it."},
+    {"type": "short", "prompt": "Why is it critical to report all unidentified UAS, even if they appear to be commercial platforms?"}
+  ]
+}
