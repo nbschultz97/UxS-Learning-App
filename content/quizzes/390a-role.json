@@ -1,0 +1,10 @@
+{
+  "slug": "390a-role",
+  "questions": [
+    {"type": "mcq", "prompt": "What are the minimum ASVAB scores required for the 390A MOS?", "options": ["EL ≥100, ST ≥100", "EL ≥110, ST ≥110", "EL ≥120, ST ≥120", "EL ≥105, ST ≥105"], "answer": "EL ≥110, ST ≥110"},
+    {"type": "short", "prompt": "Name three core responsibilities of a Robotics Technical Integrator."},
+    {"type": "short", "prompt": "What does SME stand for and why is it critical to the 390A mission?"},
+    {"type": "mcq", "prompt": "Which role track focuses on electronic warfare and spectrum analysis?", "options": ["UAS ISR operator track", "FPV/ODB operator-builder track", "RF mapping/passive sensing track", "Additive/CAD sustainment track"], "answer": "RF mapping/passive sensing track"},
+    {"type": "short", "prompt": "Describe the 'integrator mindset' and why it is important for the 390A role."}
+  ]
+}
